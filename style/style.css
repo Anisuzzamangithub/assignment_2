@@ -1,0 +1,512 @@
+/*-----------------------
+ Google font 
+ ........................*/
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
+
+/* -----------------------
+ universal Selector
+ ........................ */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* -----------------------
+ Hero Start Style
+ ........................ */
+.hero {
+    width: 100%;
+    height: 1322px;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 228px;
+    margin-right: 228px;
+    padding-top: 50px;
+}
+
+.menu-item {
+    display: flex;
+    gap: 30px;
+}
+
+.menu-item li {
+    list-style: none;
+}
+
+.menu-item li a {
+    text-decoration: none;
+    color: #424242;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.logo h1 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+
+.contain-area {
+    position: absolute;
+    width: 862px;
+    left: 529px;
+    right: 529px;
+    top: 205px;
+    text-align: center;
+}
+
+.contain-area-titel {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    text-align: center;
+    color: #131313;
+    margin-bottom: 30px;
+}
+
+.contain-area-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+}
+
+.btn {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+    margin-top: 32px;
+    transition: background-color 0.5S ease-in;
+
+}
+
+.btn:hover {
+    background-color: #df0b0b;
+
+}
+
+.picture {
+    position: absolute;
+    width: 1440px;
+    height: 700px;
+    left: 240px;
+    top: 577px;
+    background: url("../images/banner.png");
+    border-radius: 8px;
+}
+
+/* -----------------------
+ Hero end Style
+ ........................ */
+
+/* -----------------------
+ Feture Start Style
+ ........................ */
+
+.container {
+    display: flex;
+    margin-top: 85px;
+    align-items: center;
+    gap: 73px;
+
+}
+
+.images-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding-left: 301px;
+
+}
+
+.img-item {
+    transition: transform 0.2s;
+
+}
+
+.img-item:hover {
+    transform: translateY(-10px);
+}
+
+
+.feture {
+    position: absolute;
+    width: 537px;
+    height: 304px;
+    left: 1082px;
+    top: 1609px;
+}
+
+.feture-title {
+    margin-bottom: 24px;
+    color: #727272;
+    font-weight: 500;
+    font-size: 45px;
+}
+
+.sp-1 {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.sp-2 {
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.feture-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* -----------------------
+ Feture End Style
+ ........................ */
+
+/* -----------------------
+ Love Start Style
+ ........................ */
+.love {
+    display: flex;
+    gap: 54px;
+    margin-top: 117px;
+    align-items: center;
+}
+
+.title {
+    width: 586px;
+    height: 982px;
+    /* background-color: red; */
+    margin-left: 240px;
+}
+
+.title-2 {
+    height: 1059px;
+    width: 800px;
+    background-image: url("../images/architect.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.box-title {
+    display: flex;
+    align-items: center;
+
+}
+
+.box {
+    width: 8px;
+    height: 106px;
+    background-color: #FF900E;
+    ;
+}
+
+.heding {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 70px;
+    color: #131313;
+    padding-left: 10px;
+
+}
+
+.sub-title {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-top: 24px;
+}
+
+.box-1 {
+    margin-top: 24px;
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+
+.box-1-title {
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+}
+
+.box-1-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+
+}
+
+.years {
+    position: relative;
+    width: 342px;
+    height: 200px;
+    background: #FF900E;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 107.5%;
+}
+
+.years h1 {
+    padding-left: 42px;
+    padding-right: 42px;
+    padding-top: 46px;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 70px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.years p {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+
+}
+
+/* -----------------------
+ love End Style
+ ........................ */
+
+/* -----------------------
+ Some-Facts Start Style
+ ........................ */
+
+
+.Some-Facts {
+    margin-top: 151px;
+    margin-left: 280px;
+
+}
+
+.sf-text {
+    color: #131313;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+
+.sf-description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+}
+
+/* -----------------------
+ Some-Facts Start Style
+ ----------------------- */
+/* -----------------------
+ Card Start Style
+ ........................ */
+.cards {
+    margin-left: 270px;
+    margin-top: 100px;
+    display: flex;
+    gap: 124px;
+
+
+}
+
+.card {
+    text-align: center;
+    width: 240px;
+    height: 240px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    padding: 36px 45px;
+    transition: transform 0.3s ease-in;
+
+}
+
+.card:hover {
+    transform: translateY(-10px)
+}
+
+.card img {
+    width: 45.22px;
+    height: 45.22px;
+    margin-bottom: 10px;
+}
+
+.card h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 53px;
+    color: #424242;
+    margin-bottom: 10px;
+
+}
+
+.card p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 23px;
+    color: #727272;
+}
+
+/* -----------------------
+ Card End Style
+ ........................ */
+/* -----------------------
+ Sponsor Start Style
+ ........................ */
+.Sponsors {
+    margin-top: 180px;
+    width: 542px;
+    height: 129px;
+    margin-left: 690px;
+    text-align: center;
+
+}
+
+.Sponsors h1 {
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    margin-bottom: 24px;
+}
+
+.Sponsors p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #727272;
+
+}
+
+/* -----------------------
+ Sponsor End Style
+ ........................ */
+
+/* -----------------------
+ Clients Start Style
+ ........................ */
+.clients {
+    margin-top: 50px;
+    margin-left: 240px;
+    display: flex;
+    gap: 150px;
+}
+
+/* -----------------------
+ Clients End Style
+ ........................ */
+/* -----------------------
+ Footer Start Style
+ ........................ */
+.footer {
+    margin-top: 170px;
+    width: 1440px;
+    height: 100px;
+    background: #FFF4E7;
+    border-radius: 8px;
+    margin-left: 240px;
+    text-align: center;
+    margin-bottom: 216px;
+}
+
+.footer p {
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #424242;
+}
+
+
+.Exta-section {
+    margin-top: 100px;
+    margin-left: 240px;
+    display: flex;
+    gap: 96px;
+    align-items: center;
+    width: 1440px;
+    height: 270px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 10px;
+}
+
+.image-exta {
+    background-image: url(../images/gear.png);
+    width: 501px;
+    height: 270px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.text-exta h1 {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 60px;
+    color: #0A0826;
+}
+
+.text-exta p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+/* -----------------------
+ Footer End Style
+ ........................ */
+
+
+ /* --------------------------------------
+ Responsive Design for Mobile device Style
+ ----------------------------------------- */
+
+ /* @media screen and (max-with:570px) {
+
+ } */
+
+  /* media query bujte Parci but onak try korlam puro siter jonno Apply korte parlam
+  16 houre try kore bartho holam but Asa asari nai In Shaa Allaha Akdin Sofol Hobo   */
+  
+    
+ /* --------------------------------------
+ Responsive Design for Mobile device Style
+ ----------------------------------------- */
